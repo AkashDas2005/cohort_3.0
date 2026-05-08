@@ -1,0 +1,1 @@
+console.log(`Generate 4 digit OTP`,(Math.random()*9000+1000).toFixed(0))

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PWD Form</title>
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaBGxWWh1e8ckSHIUCtbRoEYlRsY3AZTvGlQ&s"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 draggable="true">Hellooo Bachchooo</h1>
+      <h2>Student Registration Form</h2>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Personal Details</legend>
+          <br /><br />
+          <label for="name">Name:</label>
+          <input
+            required
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+          /><br />
+          <br />
+          <label for="emailid">Email ID:</label>
+          <input
+            id="emailid"
+            type="email"
+            placeholder="Enter your email id"
+            required
+          /><br />
+          <br />
+          <label for="uniqueid">Unique ID:</label>
+          <input
+            id="uniqueid"
+            type="password"
+            placeholder="Enter your unique id"
+            required
+          /><br />
+          <br />
+          <label for="mobile">Phone no:</label>
+          <input
+            id="mobile"
+            type="text"
+            placeholder="Enter your phone number"
+            required
+          /><br />
+          <br />
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input id="female" type="radio" name="gender" value="female" />
+          <label for="female">Female</label>
+          <input id="other" type="radio" name="gender" value="other" />
+          <label for="other">Other</label>
+          <br />
+          <br />
+          <label for="dob">Date of Birth:</label>
+          <input type="date" name="" id="dob" placeholder="dd/mm/yyyy" />
+          <br />
+          <br />
+          <label for="photo">Passport Photo:</label>
+          <input type="file" name="" id="" />
+        </fieldset>
+        <br /><br />
+        <fieldset>
+          <legend>Address Details</legend>
+          <br />
+          <br />
+          <label for="address1">Address Line 1:</label>
+          <textarea id="address1" type="text" placeholder=""></textarea><br />
+          <label for="address2">Address Line 2:</label>
+          <textarea id="address2" type="text" placeholder=""></textarea><br />
+          <br />
+          <label for="city">City:</label>
+          <select id="city">
+            <option>Allahabad</option>
+            <option>Bangalore</option>
+            <option>Chennai</option>
+            <option>Hyderabad</option>
+            <option>Indore</option>
+            <option>Kolkata</option>
+            <option>Mumbai</option>
+            <option>Pune</option>
+            <option>Raipur</option>
+            <option>Surat</option>
+            <option>Udaipur</option>
+          </select>
+          <br /><br />
+          <label for="pincode">Pincode:</label>
+          <input id="pincode" type="number" placeholder="Enter your pincode" />
+          <br /><br />
+          <label for="state">State:</label>
+          <select id="state">
+            <option>Andhrapradesh</option>
+            <option>Bihar</option>
+            <option>Chennai</option>
+            <option>Goa</option>
+            <option>Gujarat</option>
+            <option>Haryana</option>
+            <option>Maharashtra</option>
+            <option>Madhya Pradesh</option>
+            <option>Tamil Nadu</option>
+            <option>Telangana</option>
+            <option>West Bengal</option>
+          </select>
+          <br /><br />
+
+          <label for="country">Country:</label>
+          <select id="country">
+            <option>Andhrapradesh</option>
+            <option>Bihar</option>
+            <option>Chennai</option>
+            <option>Goa</option>
+            <option>Gujarat</option>
+            <option>Haryana</option>
+            <option>Maharashtra</option>
+            <option>Madhya Pradesh</option>
+            <option>Tamil Nadu</option>
+            <option>Telangana</option>
+            <option>West Bengal</option>
+          </select>
+          <br /><br />
+        </fieldset>
+        <br /><br />
+        <fieldset>
+          <legend>Course Details</legend>
+          <br /><br />
+          <label for="courses">Select Courses:</label>
+          <select id="courses">
+            <optgroup label="Frontend">
+              <option value="">HTML</option>
+              <option value="">CSS</option>
+              <option value="">JS</option>
+            </optgroup>
+            <optgroup label="Backend">
+              <option value="">Nodejs</option>
+              <option value="">Express</option>
+              <option value="">Mongodb</option>
+            </optgroup>
+          </select>
+          <br />
+        </fieldset>
+        <br /><br />
+        <input type="checkbox" id=" declaration" />
+        <label for="declaration"
+          >I hereby declare that the information provided is true and
+          correct.</label
+        >
+
+        <br /><br />
+        <button type="submit">Submit</button>
+      </form>
+      <br /><br /><br /><br />
+      <hr />
+    </main>
+    <footer>
+      <div>
+        <details>
+          <summary><strong>FAQs</strong></summary>
+          <p>
+            <strong
+              >Q1: Do I need prior coding experience to join this course?</strong
+            >
+          </p>
+          <p>
+            No, prior coding experience is not required. This course is
+            beginner-friendly and starts with the basics like HTML, CSS, and
+            JavaScript. It gradually progresses to advanced topics with practical
+            examples and projects.
+          </p>
+          <p><strong>Q2: What tools and software do I need?</strong></p>
+          <p>
+            You only need a computer with an internet connection. Free tools like
+            a code editor (e.g., VS Code) and a web browser (such as Chrome or
+            Firefox) will be used. All setup instructions will be provided during
+            the course.
+          </p>
+        </details><br>
+        
+        <a href="mailto:support@example.com">Email: support@example.com</a>
+        <br>
+        <a href="tel:+91XXXXXXXXXXXXX">Phone: +91-XXXXXXXXXX</a>
+      </div>
+      <p align="center">All rights reserved by PWD company</p>
+    </footer>
+  </body>
+</html>
