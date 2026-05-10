@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokemon UI</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link
+    rel="shortcut icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ij44Wzg7ACC2JbYsRTHxq9aaJ2CEKrce-nzYctxxkA&s"
+    type="image/x-icon"
+  />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- TOP BAR -->
+
+    <div class="top-bar">
+
+      <div class="icon-box">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <div class="logo">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pokémon_logo.svg"
+          alt="pokemon logo"
+        >
+      </div>
+
+      <div class="icon-box">
+        <i class="fa-regular fa-sun"></i>
+      </div>
+
+    </div>
+
+    <!-- SEARCH SECTION -->
+
+    <div class="search-section">
+
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+          type="text"
+          placeholder="Search for a Pokémon..."
+        >
+      </div>
+
+      <div class="filter-area">
+
+        <div class="filter-btn">
+          Filter by types (1)
+
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+
+        <div class="icon-box">
+          <i class="fa-solid fa-sliders"></i>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- CARDS -->
+
+    <div class="card-container">
+
+      <!-- CARD 1 -->
+
+      <div class="card grass">
+
+        <div class="number">#0908</div>
+
+        <div class="heart">
+          <i class="fa-regular fa-heart"></i>
+        </div>
+
+        <img
+          src="https://img.pokemondb.net/artwork/large/meowscarada.jpg"
+          class="pokemon-img"
+        >
+
+        <div class="pokemon-name">
+          Meowscarada
+        </div>
+
+        <div class="bottom">
+
+          <div class="type grass-type">
+            <i class="fa-solid fa-leaf"></i>
+            GRASS
+          </div>
+
+          <div class="arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 2 -->
+
+      <div class="card steel">
+
+        <div class="number">#0624</div>
+
+        <div class="heart">
+          <i class="fa-regular fa-heart"></i>
+        </div>
+
+        <img
+          src="https://img.pokemondb.net/artwork/large/pawniard.jpg"
+          class="pokemon-img"
+        >
+
+        <div class="pokemon-name">
+          Pawniard
+        </div>
+
+        <div class="bottom">
+
+          <div class="type steel-type">
+            <i class="fa-solid fa-shield-halved"></i>
+            DARK / STEEL
+          </div>
+
+          <div class="arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 3 -->
+
+      <div class="card fire">
+
+        <div class="number">#0229</div>
+
+        <div class="heart">
+          <i class="fa-regular fa-heart"></i>
+        </div>
+
+        <img
+          src="https://img.pokemondb.net/artwork/large/houndoom.jpg"
+          class="pokemon-img"
+        >
+
+        <div class="pokemon-name">
+          Houndoom
+        </div>
+
+        <div class="bottom">
+
+          <div class="type fire-type">
+            <i class="fa-solid fa-fire"></i>
+            DARK / FIRE
+          </div>
+
+          <div class="arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 4 -->
+
+      <div class="card psychic">
+
+        <div class="number">#0686</div>
+
+        <div class="heart">
+          <i class="fa-regular fa-heart"></i>
+        </div>
+
+        <img
+          src="https://img.pokemondb.net/artwork/large/inkay.jpg"
+          class="pokemon-img"
+        >
+
+        <div class="pokemon-name">
+          Inkay
+        </div>
+
+        <div class="bottom">
+
+          <div class="type water-type">
+            <i class="fa-solid fa-droplet"></i>
+            DARK / PSYCHIC
+          </div>
+
+          <div class="arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FEATURES -->
+
+    <div class="features">
+
+      <div class="feature-box">
+
+        <div class="feature-icon blue">
+          <i class="fa-solid fa-circle"></i>
+        </div>
+
+        <div class="feature-text">
+          <h3>Explore</h3>
+          <p>Discover all your favorite Pokémon</p>
+        </div>
+
+      </div>
+
+      <div class="feature-box">
+
+        <div class="feature-icon green">
+          <i class="fa-solid fa-leaf"></i>
+        </div>
+
+        <div class="feature-text">
+          <h3>Filter</h3>
+          <p>Find Pokémon by types and abilities</p>
+        </div>
+
+      </div>
+
+      <div class="feature-box">
+
+        <div class="feature-icon yellow">
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <div class="feature-text">
+          <h3>Collection</h3>
+          <p>Save and manage your collection</p>
+        </div>
+
+      </div>
+
+      <div class="feature-box">
+
+        <div class="feature-icon purple">
+          <i class="fa-solid fa-chart-simple"></i>
+        </div>
+
+        <div class="feature-text">
+          <h3>Stats</h3>
+          <p>View stats and learn about Pokémon</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+      © 2024 Pokémon. All rights reserved.
+    </div>
+
+  </div>
+
+</body>
+</html>
