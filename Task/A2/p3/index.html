@@ -3,48 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>INSECT COLLECTOR</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   </head>
   <body>
+    <header class="headcontainer">
+      <div class="left">
+        <div class="logo">INSECT</div>
+        <div class="search-box">
+          <i class="ri-search-line"></i>
+          <input type="text" placeholder="Search.." />
+        </div>
+      </div>
+      <nav class="right">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
     <main>
-      <img class="image" src="92306.png" alt="">
-      <div class="headcontainer">
-        <div class="left">
-          <h1>INSECT</h1>
-          <div class="search-box">
-              <i class="ri-search-line"></i>
-              <input type="text" placeholder="Search..">
+      <img id="image" src="92306.png" alt="" />
+
+      <div class="container">
+        <div class="left-content">
+          <div class="vertical-text">Classification</div>
+          <section id="info1">
+            <ul>
+              <li class="list1">
+                <b class="b1">Class:</b><br />
+                Insecta
+              </li>
+              <hr />
+              <li class="list1">
+                <b class="b1">Order:</b><br />
+                Celeoptera
+              </li>
+              <hr />
+              <li class="list1">
+                <b class="b1">Family:</b><br />
+                Cerambycidae
+              </li>
+              <hr />
+              <li class="list1">
+                <b class="b1">Sub-Family:</b><br />Cerambycinae
+              </li>
+              <hr />
+              <li class="list1">
+                <b class="b1">Tribe:</b><br />
+                Callicromatini
+              </li>
+              <hr />
+              <li class="list1">
+                <b class="b1">Genus:</b><br />
+                Pachyteria
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="right-content">
+          <h1 id="name">
+            Pachyteria <br />
+            equestris
+          </h1>
+          <div class="dim">
+            <div class="img2">
+              <img class="image2" src="92308.png" alt="" />
+              <p style="position: absolute; top: 80%; left: 35%; color: white">
+                32mm
+              </p>
+            </div>
+            <div class="char">
+              <div class="locality">
+                <i class="ri-map-pin-line"></i
+                ><span class="features"
+                  >Locality:<br />
+                  Malaysia</span
+                >
+              </div>
+              <div class="gender">
+                <i class="ri-men-line"></i
+                ><span class="features">Sex: <br />Male</span>
+              </div>
+              <div class="size">
+                <i class="ri-ruler-line"></i
+                ><span class="features">Size: <br />32mm/ 12mm</span>
+              </div>
+            </div>
+          </div>
+          <div class="rest">
+            <h1 id="price">$5.99</h1>
+            <br />
+            <div class="tog1">
+              <i class="ri-toggle-line"></i>
+              <p class="togp">View detailed antennae</p>
+            </div>
+            <br />
+            <div class="tog1">
+              <i class="ri-toggle-line"></i>
+              <p class="togp">View Underside</p>
+            </div>
+            <br />
+            <button id="btn">Add to collection</button>
           </div>
         </div>
-        <div class="right">
-          <a href="#">Home</a>
-          <a href="#">Shop</a>
-          <a href="#">About</a>
-          <a href="#">Gallery</a>
-          <a href="#">Contact</a>
-        </div>
-      </div>
-      <div class="vertical-text"><i>Classification</i></div>
-      <div class="left-content">
-        <i class="ri-circle-fill"><b>Class:</b><br><p>insecta</p></i> <br><br>
-        <hr>
-        <br><i class="ri-circle-fill"><b>Order:</b><br><p>Coleoptera</p></i> <br><br>
-        <hr>
-        <br><i class="ri-circle-fill"><b>Family:</b> <br><p>Cerambycidae</p><br></i> <br>
-        <hr>
-        <i class="ri-circle-fill"><b>Sub-Family:</b><br><p>Cerambycinae</p><br></i><ul></ul> <br>
-        <hr>
-        <i class="ri-circle-fill"><b>Tribe:</b><br><p>Callicromatini</p></i><ul></ul>
-      </div>
-      <div class="right-content">
-
       </div>
     </main>
-
+    <footer style="display: flex; justify-content: center;">All rights are reserved by INSECT COLLECTOR &copy; 2026</footer>
   </body>
 </html>
