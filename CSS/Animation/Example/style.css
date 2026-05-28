@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html, body {
+    height:100%;
+    width:100%;
+}
+
+.parent{
+    background-color: red;
+    display: flex;
+}
+.inner{
+    background-color: aqua;
+    display: flex;
+    display: 10px;
+    animation-name: anim;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+ h1{
+    color:aliceblue;
+    background-color: darkorchid;
+    padding: 10px;
+    
+ }    
+
+@keyframes anim{
+    from{
+        transform:translate(0);
+
+    }
+    to{
+        transform:translate(-100%);
+    }
+}

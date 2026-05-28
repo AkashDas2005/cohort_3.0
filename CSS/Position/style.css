@@ -1,0 +1,32 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html, body {
+    height:100%;
+    width:100%;
+
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    background-color: orange;
+    border:5px;;
+}
+
+.box:nth-child(2n){
+    height: 100%;
+    width: 100%;
+    background-color: orangered;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position:fixed;
+    top: 20%;
+}

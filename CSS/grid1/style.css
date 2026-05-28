@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: grid;
+  gap:5px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 40% 40% 10%;
+}
+
+header {
+  background-color: rgb(3, 105, 105);
+  grid-column: 1/3;
+}
+
+.lefttop {
+  background-color: rgb(245, 183, 183);
+  grid-column: 1/2;
+}
+
+.leftbottom {
+  background-color: rgb(247, 57, 57);
+  grid-column: 1/2;
+}
+
+.right {
+  background-color: rgb(97, 13, 13);
+  grid-row: 2/4;
+  grid-column: 2/3;
+}
+
+footer {
+  background-color: cyan;
+  grid-column: 1/3;
+}

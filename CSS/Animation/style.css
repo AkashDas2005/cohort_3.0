@@ -1,0 +1,92 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html, body {
+    height:100%;
+    width:100%;
+}
+
+main{
+    height:100%;
+    width:100%;
+    background-color: blueviolet;
+}
+
+.box{
+    height:200px;
+    width:200px;
+    background-color: red;
+    border:2px solid white;
+    border-radius: 20%;
+    position: absolute;
+    animation-name: anime ;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0,1.32,.69,.67);
+}    
+  
+.box:hover{
+    animation-play-state: paused;
+}
+
+@keyframes anime {
+    /* from{
+        left:0;
+        rotate:0deg;
+        border:2px solid white;
+        border-radius: 20%;
+    }
+    to{
+        left:60%;
+        background-color: orange;
+        rotate: 360deg;
+        border:2px solid white;
+        border-radius: 20%;
+    } */
+    0% {
+        top:0%;
+        left:0;
+        rotate:0deg;
+        border:2px solid white;
+        border-radius: 20%;
+        rotate: 0 deg;
+    }
+    25%{
+        top:0%;
+        left:90%;
+        background-color: violet;
+        border:2px solid white;
+        border-radius: 20%;
+        rotate: 90 deg;
+    }
+    50%{
+        top:50%;
+        left:50%;
+        background-color: rgb(116, 4, 221);
+        border:2px solid white;
+        border-radius: 20%;
+        rotate: 180 deg;
+    }
+    75%{
+        transform: translate(-50%,-50%);
+        background-color: blue;
+        top:50%;
+        left:50%;
+        border:2px solid white;
+        border-radius: 20%;
+        rotate: 270 deg;
+    }
+    100%{
+        top:0;
+        left:0;
+        background-color: red;
+        border:2px solid white;
+        border-radius: 20%;
+        rotate: 360 deg;
+    }
+}
