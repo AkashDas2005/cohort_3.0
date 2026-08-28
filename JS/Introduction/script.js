@@ -23,7 +23,7 @@
 // }
 
 //Switch-case
-//  var b = Number(prompt("Enter the number for a weekday"))
+// var b = Number(prompt("Enter the number for a weekday"))
 
 // switch(b){
 //     case 1:
